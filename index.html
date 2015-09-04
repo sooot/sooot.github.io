@@ -19,6 +19,8 @@
 
   <h3 class="brand">hi, i'm soot</h3>
 
+  <img class="soot" src="soot.jpg">
+
   <div class="valign-wrapper card-wrapper">
     <!-- <div class="card-wrapper"> -->
 
@@ -65,5 +67,15 @@
       <!-- </div> -->
 
     </div>
+    <script>
+
+    $(".brand").on("click tap",function(){
+      $(".soot").addClass("soot-animated");
+      setTimeout(function(){
+        $(".soot").removeClass("soot-animated");
+      },2000);
+    });
+
+    </script>
   </body>
   </html>
