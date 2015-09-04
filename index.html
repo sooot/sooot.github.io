@@ -17,9 +17,7 @@
 </head>
 <body>
 
-  <h3 class="brand">hi, i'm soot</h3>
-
-  <img class="soot" src="soot.jpg">
+  <h3 class="brand">click on soot</h3>
 
   <div class="valign-wrapper card-wrapper">
     <!-- <div class="card-wrapper"> -->
@@ -70,10 +68,11 @@
     <script>
 
     $(".brand").on("click tap",function(){
-      $(".soot").addClass("soot-animated");
-      setTimeout(function(){
-        $(".soot").removeClass("soot-animated");
-      },2000);
+      // $(".soot").addClass("soot-animated");
+      // setTimeout(function(){
+      //   $(".soot").removeClass("soot-animated");
+      // },2000);
+      Materialize.toast("<span>Return to FW?</span><a class='btn-flat yellow-text' href='http://108.197.28.233/'>Yes!<a>",4000)
     });
 
     </script>

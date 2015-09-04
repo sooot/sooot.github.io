@@ -38,22 +38,6 @@ body {
   margin: 0 10px;
 }
 
-.soot {
-  position: fixed;
-  top: -100px;
-  z-index: 10;
-  width: 100px;
-}
-
-.soot-animated {
-  -webkit-animation-name: traverse;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-iteration-count: 1;
-  animation-name: traverse;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-}
-
 .animated {
   -webkit-animation-name: dropDown;
   -webkit-animation-duration: 1s;
@@ -134,14 +118,5 @@ body {
   }
   100% {
     background-color: #04A1BE;
-  }
-}
-
-@keyframes traverse {
-  from {
-    transform: translateY(0vh);
-  }
-  to {
-    transform: translateY(150vh);
   }
 }
