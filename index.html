@@ -17,64 +17,91 @@
 </head>
 <body>
 
-  <h3 class="brand">How do I open these? (click this)</h3>
+  <div class="container">
+    <h1 class="brand animated-noshadow">sooot!</h1>
+    <h5 class="howto animated-noshadow">How do I install these?</h5>
+    <a href="javascript:Materialize.toast('Ask Fluff how to open',4000)" class="btn animated white black-text tellme tooltipped" data-position="right" data-delay="50" data-tooltip="Ask Fluff how to open">Tell me!</a>
+  </div>
 
-  <div class="valign-wrapper card-wrapper">
-    <!-- <div class="card-wrapper"> -->
+  <div class="container card-wrapper">
 
-      <div class="card animated valign">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="https://placehold.it/250x300">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">VLC Media Player<i class="material-icons right">more_vert</i></span>
-          <p><a href="https://mega.nz/#!QhI3Ua7L!2D866Tj0JMUy_QfJzkvfbaW_qcsVdRM3-XnwykrsLVY">Download</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
-          <p>Simple, fast and powerful media player. Plays everything: Files, Discs, Webcams, Devices and Streams. Plays most codecs with no codec packs needed: MPEG-2, DivX, H.264, MKV, WebM, WMV, MP3... Runs on all platforms: Windows, Linux, Mac OS X, Unix... Completely Free, no spyware, no ads and no user tracking. Can do media conversion and streaming. </p>
-        </div>
+    <div class="card animated">
+      <div class="card-image">
+        <img src="vlc.png">
+        <span class="card-title">VLC Media Player</span>
       </div>
-
-      <div class="card animated valign">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="https://placehold.it/250x300">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-          <p><a href="#">This is a link</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
+      <div class="card-content">
+        <p>Simple, fast and powerful media player. Plays everything.</p>
       </div>
-
-      <div class="card animated valign">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="https://placehold.it/250x300">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-          <p><a href="#">This is a link</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      <!-- </div> -->
-
+      <div class="card-action">
+        <a href="https://mega.nz/#!QhI3Ua7L!2D866Tj0JMUy_QfJzkvfbaW_qcsVdRM3-XnwykrsLVY">Download</a>
+      </div>
     </div>
-    <script>
 
-    $(".brand").on("click tap",function(){
-      // $(".soot").addClass("soot-animated");
-      // setTimeout(function(){
-      //   $(".soot").removeClass("soot-animated");
-      // },2000);
-      Materialize.toast("Ask Fluff about how to open these mirrors",4000)
-    });
+    <div class="card animated">
+      <div class="card-image">
+        <img src="minecraft.png">
+        <span class="card-title">Minecraft</span>
+      </div>
+      <div class="card-content">
+        <p>That blocky game with the exploding green willies.</p>
+      </div>
+      <div class="card-action">
+        <a href="">Download</a>
+      </div>
+    </div>
 
-    </script>
+    <div class="card animated">
+      <div class="card-image">
+        <img src="skype.png">
+        <span class="card-title">Skype</span>
+      </div>
+      <div class="card-content">
+        <p>Chat and audio/video call software.</p>
+      </div>
+      <div class="card-action">
+        <a href="">Download</a>
+      </div>
+    </div>
+
+    <div class="card animated">
+      <div class="card-image">
+        <img src="bittorrent.png">
+        <span class="card-title">BitTorrent</span>
+      </div>
+      <div class="card-content">
+        <p>You know what this is for. Yar har, matey.</p>
+      </div>
+      <div class="card-action">
+        <a href="https://mega.nz/#!94IETJCJ!Sp_ClmfSgZMb0sUdJpALd4cWH-wFYNKpM-G5r52k07Y">Download</a>
+      </div>
+    </div>
+
+    <div class="card animated">
+      <div class="card-image">
+        <img src="itunes.png">
+        <span class="card-title">iTunes</span>
+      </div>
+      <div class="card-content">
+        <p>Fully featured music player and manager. </p>
+      </div>
+      <div class="card-action">
+        <a href="https://mega.nz/#!5soAxTpB!RaBaHWKXNi9eBsZehGyhUl1xKTbWqt_aaw3zf16bIpc">Download</a>
+      </div>
+    </div>
+
+    <div class="card animated">
+      <div class="card-image">
+        <img src="snake.png">
+        <span class="card-title">Snake.bat</span>
+      </div>
+      <div class="card-content">
+        <p>A simple snake game written batch. Very small, very casual.</p>
+      </div>
+      <div class="card-action">
+        <a href="snake.bat">Download</a>
+      </div>
+    </div>
+
   </body>
   </html>
