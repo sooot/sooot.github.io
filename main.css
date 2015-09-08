@@ -8,9 +8,9 @@ html, body {
 
 body {
   background: #04A1BE;
-  animation-name: breathe;
+  /*animation-name: breathe;
   animation-duration: 10s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite;*/
 }
 
 .brand, .howto {
