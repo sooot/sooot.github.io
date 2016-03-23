@@ -35,8 +35,47 @@ body {
 
 .mirror {
   color: #ffab40;
-  transition: color 0.5s;
+  animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
 }
-.mirror:hover {
-  color: #ffd8a6;
+
+@keyframes flash {
+    0% {
+        color: #ffab40;
+    }
+    50% {
+        color: #ffd8a6;
+    }
+    100% {
+        color: #ffab40;
+    }
+}
+@-moz-keyframes flash {
+    0% {
+        color: #ffab40;
+    }
+    50% {
+        color: #ffd8a6;
+    }
+    100% {
+        color: #ffab40;
+    }
+}
+@-webkit-keyframes flash {
+    0% {
+        color: #ffab40;
+    }
+    50% {
+        color: #ffd8a6;
+    }
+    100% {
+        color: #ffab40;
+    }
 }
