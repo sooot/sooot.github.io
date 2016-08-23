@@ -1,0 +1,148 @@
+.embed-user {
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.0em;
+    /* Default colors */
+    color: #FFFFFF;
+    background-color: #3D3C3A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.NaN {
+    color: #97007E;
+    background-color: #FFF;
+    font-family: 'Lucida Console', Monaco, monospace;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+}
+.soot {
+    color: rgb(214, 227, 239);
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(1, 87, 155);
+}
+.zzz {
+    color: #00bcf8;
+    background-color: #494c64;
+    font-family: Georgia, serif
+}
+.qwert123 {
+    color: #ffffff;
+    background-color: #0080ff;
+    font-family: Arial, Helvetica, sans-serif
+}
+.Lynx {
+    color: #504A4B;
+    background-color: #11cee3;
+    font-family: 'Comic Sans', 'Comic Sans MS', 'Chalkboard', 'ChalkboardSE-Regular', sans-serif;
+}
+.lobster {
+    color: #96e0fc;
+    background-color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif
+}
+.TheShinyG {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 191, 0);
+    font-family: 'Comic Sans', 'Comic Sans MS', Chalkboard, ChalkboardSE-Regular, sans-serif;
+}
+.IHateBiscuits {
+    color: #00ffff;
+    background-color: #ff8000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yousea {
+    color: #ff66ff;
+    background-color: #000000;
+    font-family: 'Lato', sans-serif
+}
+.BootySnatcher {
+    color: #ff80c0;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Metfan {
+    color: #00ffff;
+    background-color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+.CheeseCum {
+    color: #ea5515;
+    background-color: #00ff00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Fluff {
+    color: #00ff00;
+    background-color: #000000;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+.Rez {
+    color: #b6b6b4;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.LordSuperGuruKami {
+    color: #990012;
+    background-color: #FDD017;
+    font-family: 'Comic Sans', 'Comic Sans MS', 'Chalkboard', 'ChalkboardSE-Regular', sans-serif;
+}
+.Pleepster, .Pleep {
+    color: #c12267;
+    background-color: #000000;
+    font-family: 'Courier New', Courier, monospace
+}
+.Zoned4 {
+    color: rgb(236, 230, 0);
+    font-family: Georgia, serif;
+    background-color: rgb(0, 0, 0);
+}
+.Skream {
+    color: #880000;
+    background-color: #0b0b0b;
+    font-family: 'Times New Roman', Times, serif
+}
+.PETFISH {
+    color: rgb(0, 255, 255);
+    background-color: rgb(0, 0, 160);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Madi {
+    color: rgb(245, 245, 245);
+    background-color: rgb(206, 147, 216);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Faye {
+    color: rgb(246, 40, 23);
+    background-color: rgb(41, 0, 83);
+    font-family: Copperplate, 'Copperplate Gothic', sans-serif;
+}
+.SwegLord {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Impact, Charcoal, sans-serif
+}
+.Fluff {
+    color: rgb(0, 255, 0);
+    font-family: Ubuntu, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+.Spek {
+    ccolor: #aeaad7;
+    background-color: #680f6a;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif
+}
+.CyriTheCat {
+    color: rgb(0, 15, 191);
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ehsa {
+    color: #01ebfe;
+    background-color: #3c003c;
+    font-family: Arial, Helvetica, sans-serif
+}
+.ghosty {
+    color: #06fff2;
+    background-color: #800080;
+    font-family: Arial, Helvetica, sans-serif;
+}
