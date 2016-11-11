@@ -47,7 +47,7 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
-.TheShinyG {
+.TheShinyG, .G {
     color: rgb(255, 255, 255);
     background-color: rgb(255, 191, 0);
     font-family: 'Comic Sans', 'Comic Sans MS', Chalkboard, ChalkboardSE-Regular, sans-serif;
@@ -224,5 +224,11 @@
 .Koosh {
   color: orange;
   background: #000;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.RUNNER {
+  color: #ff870f;
+  background-color: #ce0000;
   font-family: Arial, Helvetica, sans-serif
 }
