@@ -1,7 +1,9 @@
 /* User Fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Pontano+Sans|Press+Start+2P|Ubuntu');
 
 /* User CSS */
+
 .embed-user {
     padding-left: 3px;
     padding-right: 3px;
@@ -154,9 +156,9 @@
 }
 
 .Spek {
-  color: #FFFFFF;
-  background-color: #000000;
-  font-family: 'Press Start 2P', cursive
+    color: #FFFFFF;
+    background-color: #000000;
+    font-family: 'Press Start 2P', cursive
 }
 
 .CyriTheCat {
@@ -172,9 +174,9 @@
 }
 
 .ghosty, .nexus {
-  color: #000000;
-  background-color: #3812ed;
-  font-family: Copperplate, 'Copperplate Gothic', sans-serif
+    color: #000000;
+    background-color: #3812ed;
+    font-family: Copperplate, 'Copperplate Gothic', sans-serif
 }
 
 .citlali {
@@ -220,19 +222,25 @@
 }
 
 .Acaeria {
-  color: #4bfc18;
-  background-color: #060dff;
-  font-family: Arial, Helvetica, sans-serif
+    color: #4bfc18;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-.Koosh {
-  color: orange;
-  background: #000;
-  font-family: Arial, Helvetica, sans-serif
+.Koosh, .Luna {
+    color: #00afff;
+    background-color: #000000;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif
 }
 
 .RUNNER {
-  color: #ff870f;
-  background-color: #ce0000;
-  font-family: Arial, Helvetica, sans-serif
+    color: #ff870f;
+    background-color: #ce0000;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.MemeLord {
+    color: #1ebd06;
+    background-color: #8000ff;
+    font-family: Arial, Helvetica, sans-serif
 }
