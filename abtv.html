@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+<p>ABtv ratio calculator script</p>
+<script>
+/*
+The minimum seed time for every torrent is at least 72 hours, 
+with an additional 5 hours per GB of the torrent's size over 10GB. 
+
+The initial grace period is four times the minimum seed time if you downloaded 100% of the torrent, or 7 days if you did not complete the download.
+
+*/
+
+let size = prompt('Enter size in GB:');
+
+let minimum_seed_time = 0;
+if(size > 10)
+	minimum_seed_time = 72 + (5 * (size - 10));
+else
+	minimum_seed_time = 72;
+
+alert('minimum seed time (hours): '+minimum_seed_time+'\nMST_4x (hours): '+(4*minimum_seed_time));
+
+
+</script>
+</html>
